@@ -1,1 +1,6 @@
-<p>control works!</p>
+
+    <label for="">{{ label() }}</label>
+    <!-- Pas suffisant pour que angular le reconnaisse car il y voit un simple placeholder
+     et pas un vrai textarea ou input -->
+    <ng-content select="input, textarea" />
+

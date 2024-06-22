@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   //marche comme un css selecteur
   //je dis à Angular que tous les éléments button dans l'app qui a aussi the appButon attribute 
   //doit êtrecontrôlé par ce component
-  selector: 'button[appButton]',
+  //+ voir le fichier css
+  selector: 'button[appButton], a[appButton]',
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',
